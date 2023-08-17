@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Page</title>
+    <style>
+      .preload-image::before {
+        content: url('/other/code.png');
+        display: none;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .title-container {
+        text-align: center;
+        padding: 100px 0;
+        background-color: #333;
+        color: #fff;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+    </style>
+    </head>
+    <body>
+      <div class="title-container" style="background-image: url(../../other/code.png);">
+        <h1 style="color: white;text-shadow: 1px 1px 2px black;">Detailed information</h1>
+      </div>
+      <div class="content-container" style="text-align: center;border-width: 1px;border-style: solid;border-radius: 15px;margin: 20px;padding: 10px;">
+        <p>We used 3 graphing libaries: <b>Plotly.js</b>, <b>D3.js</b> and <b>Highcharts</b>. Plotly.js was chosen for challenges 1-3 and 5 for its ease of use and nice graphics; D3.js: for its versatility when creating the extensions and Highcharts for challenge 4's 3d animation.</p><p>We chose to use pure JS to minimise the additional overhead, and to make the app as fast as possible. At load time, 35 assets are loaded into memory, and are retrieved when they are required for a challenge. Some challenges are displayed in an iframe, so the app stores the html and scripts in Blobs for fast load time.</p>
+      <p>The challenges are coded in a modular format, many of which export data generation / graphing functions. Additionally, for most challenges, data generation only occurs once for speed. </p><p>GitHub: <a href="https://github.com/Henry-Hart/Henry-Hart.github.io/BPhO2023">https://github.com/Henry-Hart/BPhO2023</a></p></div>
+    
+    
+    </body></html>

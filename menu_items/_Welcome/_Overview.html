@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title Page</title>
+    <style>
+      .preload-image::before {
+        content: url('/other/planets.png');
+        display: none;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .title-container {
+        text-align: center;
+        padding: 100px 0;
+        background-color: #333;
+        color: #fff;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+    </style>
+    </head>
+    <body>
+      <div class="title-container" style="background-image: url(../../other/planets.png);">
+        <h1 style="color: white;text-shadow: 1px 1px 2px black;">BPhO Computational Physics Challenge 2023</h1>
+        <i style="text-shadow: 1px 1px 2px black;">Henry Hart &amp; Sebastian DeLorenzo</i>
+      </div>
+      <div class="content-container" style="border-width: 1px;border-style: solid;border-radius: 15px;margin: 20px;padding: 10px;text-align: center;/*! display: inline; */">
+        <p>This website is our entry for the challenge. We have attempted all the challenges and extension material, with a focus on customization and usability.</p><p>We used multiple graphing libraries and pure JavaScript to power our graphs. For more information on our choices, please view the <i>implementation details</i> section.</p>
+        <p>To navigate the challenges, please use the menu on the left. On each challenge, there is an info box <span style="user-select: none; width: 40px; height: 40px; background-color: rgb(52, 152, 219); color: rgb(255, 255, 255); border-radius: 50%; align-items: center; justify-content: center; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; font-size: large; z-index: 100;display: inline-flex;">?</span> which displays further information about the challenge.</p></div>
+    </body></html>
