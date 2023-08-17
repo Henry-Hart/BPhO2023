@@ -16,7 +16,7 @@ menu = [
     ["General Relativity", "Binary Star"]
 ]
 content_prefixes = [
-    "_Welcome",
+    "Welcome",
     "challenge1",
     "challenge2",
     "challenge3",
@@ -27,7 +27,7 @@ content_prefixes = [
     "g_r",
 ]
 content_urls = [
-    ["_Overview.html", "Impl_details.html"], //"Paper.html"],
+    ["Overview.html", "Impl_details.html"], //"Paper.html"],
     ["challenge1.html"],
     [],
     ["plotly.html", "plotly.html"],
